@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+@layer base {
+	html[dir='ltr'] {
+		font-family: 'Inter', sans-serif;
+	}
+	html[dir='rtl'] {
+		font-family: 'Cairo', sans-serif;
+	}
+}
